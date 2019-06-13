@@ -17,6 +17,20 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "lib-core": [
+        "dist/lib-core"
+      ],
+      "lib-core/*": [
+        "dist/lib-core/*"
+      ],
+      "lib-shared": [
+        "dist/lib-shared"
+      ],
+      "lib-shared/*": [
+        "dist/lib-shared/*"
+      ]
+    }
   }
 }
